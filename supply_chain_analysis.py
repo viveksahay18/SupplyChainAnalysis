@@ -1,6 +1,5 @@
-# ===============================
 # SUPPLY CHAIN ANALYSIS PROJECT
-# ===============================
+
 
 # Import Libraries
 import pandas as pd
@@ -13,9 +12,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.preprocessing import LabelEncoder
 
-# ===============================
+
 # LOAD DATASETS
-# ===============================
 
 print("Loading datasets...")
 
@@ -40,9 +38,8 @@ print(supply_data.shape)
 print("\nDataset Information:")
 print(supply_data.info())
 
-# ===============================
+
 # CHECK MISSING VALUES
-# ===============================
 
 print("\nMissing Values:")
 print(supply_data.isnull().sum())
@@ -50,8 +47,7 @@ print(supply_data.isnull().sum())
 # Fill missing values
 supply_data = supply_data.fillna(0)
 
-# ===============================
 # DATA PREPROCESSING
-# ===============================
+
 
 print("5. Machine learning model trained successfully")
