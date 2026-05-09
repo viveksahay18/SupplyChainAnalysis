@@ -1,2 +1,21 @@
-# SupplyChainAnalysis
-This project performs Supply Chain Analysis using Python, Data Analysis, and Machine Learning.The project uses two datasets:DataCoSupplyChainDataset.csv,DescriptionDataCoSupplyChain.csv  The system analyzes:Inventory management Demand forecasting Supplier performance Delivery timelines Shipping efficiency Business decision-making.
+# Supply Chain Analysis Project
+
+## Features
+- Data preprocessing
+- Exploratory Data Analysis
+- Visualization
+- Machine Learning
+- Demand Forecasting
+- Inventory Analysis
+- Delivery Analysis
+
+## Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+
+## Run Project
+python supply_chain_analysis.py
